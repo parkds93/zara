@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<form>
+		<input type="text">
+		<input type="text">
+		<input type="text">		
+	</form>
 </body>
 </html>
