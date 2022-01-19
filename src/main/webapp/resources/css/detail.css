@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+li{
+	list-style: none;
+}
+.mainContainer {
+	height: 600px;
+	display: flex;
+}
+
+.child {
+	flex: 1;
+	text-align: center;
+}
+
+.images {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.image {
+	width: inherit;
+}
+
+.imageDetail {
+	flex: 0.3;
+}
+
+.smallimage {
+	width: 29px;
+	height: 43px;
+}
+
+.imageDetail {
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	top: 0;
+	height: 100px;
+}
+
+.logo {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.itemInfoBox {
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	bottom: 0px;
+	margin-left: 50px;
+}
+.itemInfo{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.left {
+	position: relative;
+}
+
+.test {
+	width: 100px;
+	height: 100px;
+}
+.more{
+	cursor: pointer;
+}
